@@ -1,0 +1,30 @@
+h1{
+  border-color: coral;
+  border-bottom: 3px;
+}
+
+.container-flex{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  width: 95%;
+  max-width: 1020px;
+}
+.containerItem{
+  border: 3px solid #f7f7f7;
+  border-radius: 7px;
+  width: 300px;
+  margin: 5px;
+  text-align: center;
+  background-color: #8e57e7;
+  padding: 10px 10px;
+}
+.containerItem:hover{
+  background-color: rgb(221, 255, 228);
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+}
